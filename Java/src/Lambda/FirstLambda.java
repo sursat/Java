@@ -20,7 +20,7 @@ public class FirstLambda {
 		//using Lambda
 		FileFilter fileFilterLambda = (File pathname) ->  pathname.getName().endsWith(".java");
 		
-		File dir = new File("/home/prasad/workspace/Java8/src/");
+		File dir = new File("/home/prasad/git/Java/Java/src/Lambda");
 		File[] files = dir.listFiles(fileFilter);
 		for(File file: files){
 			System.out.println(file.getName());
